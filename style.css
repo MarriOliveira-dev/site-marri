@@ -1,0 +1,99 @@
+body {
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: hotpink;
+    border-radius:  10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a[href*="instagram"] {
+    background-color: #e1306c;
+}
+
+a[href*="linkedin"] {
+    background-color: #0077b5;
+}
+
+.sobre {
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin:  30px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.sobre h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.sobre p {
+    font-size: 16px;
+    line-height 1.6;
+}
+
+/* Estiliza a seção com "Skills" */
+.skills {
+    background-color:  white; /* Fundo branco para destacar o conteudo */
+    color: black; /* Cor do texto */
+    padding:  30px;/* Espaço interno em todos os lados (respiro */
+    border-radius:  10px; /* Cantos arredondados*/
+    max-width:  600px; /* Largura máxima para manter o layout centralizado no meio da tela */
+    margin: 30px auto; /* Espaço em cima/embaixo e centraliza no meio da tela */
+    box-shadow:  0 0 10px rgba(0,0,0,0.1); /* Sombra suave ao redor da caixa */
+    text-align: left; /* Alinha o texto á esquerda */
+}
+
+/* Estilo para o título da seção "Habilidades" */
+.skills h2 {
+    font-size:  28px; /* Tamanho da fonte do título */
+    margin-bottom:  15 px; /* Espaço abaixo do título */
+
+}
+
+/* Estilo para a lista (ul= unordered list = lista com bolinhas) */
+.skills ul {
+    list-style-type: disc; /* Define bolinhas como marcador */
+    padding-left: 20px; /* Afasta um pouco da margem a esquerda*/
+}
+
+/* Estilo para cada item da lista de habilidades*/
+.skills li {
+    font-size: 16px; /* Tamanho da fonte dos itens da lista */
+    margin-bottom: 10px; /* Espaço entre um item e outro */
+}
+
+.rodape {
+    background-color: black; /* Fundo do rodapé preto */
+    color: white
+    text-align: center;/* Alinha o texto no centro */
+    padding: 20px;/* Espaço interno de 20px em todos os lados */
+    margin-top: 30px; /* Espaço entre o conteúdo acima e o rodapé */
+    font-size: 14px;/* Tamanho menor da letra para o rodapé */
+    border-top: 1px solid # 444;/* Linha discreta cinza escura no topo do rodapé */
+}
